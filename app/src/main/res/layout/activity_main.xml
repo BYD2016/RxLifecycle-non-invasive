@@ -49,7 +49,7 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/testObservable"
             android:textAllCaps="false"
-            android:click="testObservableClick"
+            android:onClick="testObservableClick"
             />
 
         <TextView

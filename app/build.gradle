@@ -25,6 +25,7 @@ version = [
         rxjava          : '2.0.7',
         rxandroid       : '2.0.1',
         rxlifecycle     : '1.1',
+        navi            : '2.0',
         junit           : '4.12',
         espressoCore    : '2.2.2'
 ]
@@ -48,8 +49,10 @@ dependencies {
     compile "io.reactivex.rxjava2:rxjava:$version.rxjava"
 
     compile "com.github.nekocode.rxlifecycle:rxlifecycle:$version.rxlifecycle"
+    compile "com.trello.navi2:navi:$version.navi"
 
     testCompile "junit:junit:$version.junit"
 
 
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 }

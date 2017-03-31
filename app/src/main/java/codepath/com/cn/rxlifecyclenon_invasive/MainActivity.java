@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.trello.navi2.component.support.NaviAppCompatActivity;
+
 import java.util.concurrent.TimeUnit;
 
 import cn.nekocode.rxlifecycle.LifecyclePublisher;
@@ -139,5 +141,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void toast(String text) {
         Toast.makeText(MainActivity.this, text, Toast.LENGTH_SHORT).show();
+    }
+
+    void launchNaviSimpleActivity(View view) {
+        NaviSimpleActivity.launchActivity(this);
     }
 }
